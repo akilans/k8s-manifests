@@ -15,7 +15,7 @@ spec:
         app: test-dep
     spec:
       containers:
-      - image: httpd
+      - image: akilan/akit-ops-app:v1
         name: httpd
 ---
 apiVersion: v1
