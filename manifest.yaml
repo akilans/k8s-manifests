@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - image: akilan/akit-ops-app:v1
-        name: httpd
+        name: httpd-app
 ---
 apiVersion: v1
 kind: Service
